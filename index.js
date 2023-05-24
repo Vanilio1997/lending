@@ -1,10 +1,6 @@
-import './index.css'
-import icon from './logos/part1.svg'
-
 const burgerBtn = document.querySelector('.burgerBtn')
 const burgerElement = document.querySelector('.burger_element')
 const project_container = document.querySelector('.project_container')
-console.log(icon);
 
 burgerBtn.addEventListener('click', () => {
     burgerBtn.classList.toggle('active');
